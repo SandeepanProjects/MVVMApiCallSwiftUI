@@ -106,11 +106,9 @@
 		1802BD172D7D99730052C406 /* MVVMApiCallSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1802BD522D7DE1130052C406 /* Views */,
 				1802BD452D7D9D1F0052C406 /* ViewModel */,
 				1802BD422D7D9C8E0052C406 /* Models */,
-				1802BD182D7D99730052C406 /* MVVMApiCallSwiftUIApp.swift */,
-				1802BD1A2D7D99730052C406 /* ContentView.swift */,
-				1802BD4E2D7DD7EA0052C406 /* GridView.swift */,
 				1802BD1C2D7D99770052C406 /* Assets.xcassets */,
 				1802BD1E2D7D99770052C406 /* Preview Content */,
 			);
@@ -159,6 +157,16 @@
 				1802BD482D7DD0AF0052C406 /* NetworkService.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1802BD522D7DE1130052C406 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1802BD1A2D7D99730052C406 /* ContentView.swift */,
+				1802BD4E2D7DD7EA0052C406 /* GridView.swift */,
+				1802BD182D7D99730052C406 /* MVVMApiCallSwiftUIApp.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
